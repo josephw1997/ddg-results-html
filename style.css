@@ -1,0 +1,17 @@
+div#header {
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    padding: 17px 0 9px;
+    border-bottom: 1px solid #d0d0d0;
+}
+
+a.icon {
+    display:block;
+    background: no-repeat center/auto 36px url("https://duckduckgo.com/assets/logo_header.v108.svg"),linear-gradient(transparent, transparent);
+    width: 101px;
+    margin-top: -7px;
+    position: absolute;
+    left: 0;
+    height: 60px;
+}
