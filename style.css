@@ -4,6 +4,7 @@ div#header {
     box-sizing: border-box;
     padding: 17px 0 9px;
     border-bottom: 1px solid #d0d0d0;
+    height: 81px;
 }
 
 a.icon {
@@ -14,4 +15,61 @@ a.icon {
     position: absolute;
     left: 0;
     height: 60px;
+}
+
+form.search-bar {
+    float: left;
+    padding-left: 101px;
+}
+
+div.search-style {
+    width: 590px;
+    margin-bottom: 10px;
+    height: 44px;
+    padding-left: 11px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid rgba(0,0,0,0.15);
+    box-shadow: 0 2px 3px rgba(0,0,0,0.06);
+    padding-right: 94px;
+    position: relative;
+
+}
+
+input.search-input {
+    font-size: 16px;
+    height: 44px;
+    font-family: sans-serif;
+    -moz-appearance: none;
+    display: block;
+    width: 100%;
+    background: none;
+    outline: none;
+    border: none;
+    padding: 0;
+    z-index: 1;
+    position: relative;
+    top: -1px;
+
+}
+
+input.search-button {
+    background-size: 18px 18px;
+    -moz-appearance: none;
+    position: absolute;
+    top: 0;
+    right: 2px;
+    height: 44px;
+    width: 26px;
+    min-width: 26px;
+    background-color: rgba(0,0,0,0);
+    background-image: url("https://duckduckgo.com/assets/loupe_gray.png");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    color: #999;
+    border-color: rgba(0,0,0,0);
+    padding: 0px 12px;
+    border: none;
+    box-sizing: content-box;
+    margin: -1px -3px;
 }
