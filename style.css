@@ -73,3 +73,10 @@ input.search-button {
     box-sizing: content-box;
     margin: -1px -3px;
 }
+
+.search-style:hover>.search-button{
+    background-image: url("https://duckduckgo.com/assets/loupe_white.png");
+    background-color: #5b9e4d;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
