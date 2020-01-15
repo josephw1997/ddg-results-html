@@ -8,7 +8,7 @@ div#header {
 }
 
 a.icon {
-    display:block;
+    display: block;
     background: no-repeat center/auto 36px url("https://duckduckgo.com/assets/logo_header.v108.svg"),linear-gradient(transparent, transparent);
     width: 101px;
     margin-top: -7px;
@@ -79,4 +79,49 @@ input.search-button {
     background-color: #5b9e4d;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+}
+
+div.no-click {
+    padding: 20px 0 20px 111px;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #d0d0d0;
+}
+
+.no-click-header {
+    color: #333;
+    text-decoration: none;
+    font-family: sans-serif;
+    padding-bottom: 10px;
+    font-size: 19px;
+    font-weight: 600;
+    display: block;
+    padding-top: 3.5px;
+}
+
+.no-click-header:hover {
+    text-decoration: underline;
+}
+
+.box-container {
+    width: 624px;
+
+}
+
+p {
+    display: inline;
+    line-height: 20.8px;
+    font-family: sans-serif;
+    font-size: 14.4px;
+    opacity: 0.9;
+}
+
+.no-click-link {
+    font-family: sans-serif;
+    font-size: 14.4px;
+    text-decoration: none;
+    color: #00278e;
+}
+
+.no-click-link:hover {
+    text-decoration: underline;
 }
