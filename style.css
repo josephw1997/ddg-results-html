@@ -125,3 +125,77 @@ p {
 .no-click-link:hover {
     text-decoration: underline;
 }
+
+div.main {
+    padding: 10px 0 0 101px;
+}
+
+.did-you-mean {
+    margin: 8px 0 16px;
+    padding: 8px 10px;
+    font-family: sans-serif;
+    line-height: 25px;
+    font-size: 16px
+}
+
+
+#search-instead:hover {
+    text-decoration: underline;
+}
+
+div.result-container {
+    padding: 7px 10px;
+    margin-bottom: 17px;
+    width: 588px;
+}
+
+.result-container:hover {
+    background-color: #f7f7f7;
+}
+
+a.result-header {
+    display: block;
+    font-family: sans-serif;
+    font-size: 19px;
+    color: #00278e;
+    padding-bottom: 3px;
+}
+
+a.result-header:hover {
+text-decoration: underline;
+}
+
+div.mid-line {
+    display: block;
+    position: relative;
+    margin: 5px 0 7px;
+}
+
+a.result-link {
+    color: green;
+    font-size: 14.4px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+a.result-link:hover {
+    text-decoration: underline;
+}
+
+.result-text {
+    color: #494949;
+    line-height: 1.45;
+    font-size: 14.4px;
+}
+
+.result-text:hover {
+    color: #666;
+}
+
+img.result-logo {
+    height: 16px;
+    width: 16px;
+    margin-right: 12px;
+}
+
