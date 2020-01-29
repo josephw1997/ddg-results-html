@@ -128,6 +128,8 @@ p {
 
 div.main {
     padding: 10px 0 0 101px;
+    width: 590px;
+    padding-bottom: 130px;
 }
 
 .did-you-mean {
@@ -199,3 +201,23 @@ img.result-logo {
     margin-right: 12px;
 }
 
+.no-results {
+    margin-bottom: 17px;
+    font-size: 14.4px;
+}
+
+.feedback {
+    float: right;
+    margin: 7px 7px 0 0;
+}
+
+.feedback a {
+    color: #4495d4;
+    font-size: 14.4px;
+
+}
+
+.feedback a:hover {
+    text-decoration: underline;
+    color: #00278e;
+}
